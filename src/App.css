@@ -1,0 +1,36 @@
+video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+.container-home {
+  width: 60%;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.weatherCard {
+  background-color: rgba(203, 206, 206, 0.5);
+  border-radius: 10px;
+  padding: 10px 20px;
+  box-shadow: 3px 3px 8px 0px #4b4a4a;
+}
+
+.weatherIcon {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.logoHeader:hover {
+  cursor: pointer;
+}
+
+img {
+  margin-right: 20px;
+}
